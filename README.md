@@ -1,4 +1,4 @@
-![](.github/assets/logo.png)
+![](.github/assets/banner.gif)
 
 ---
 
