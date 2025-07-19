@@ -195,3 +195,43 @@ uis.InputBegan:Connect(function(input, gp)
 		screenGui.Enabled = not screenGui.Enabled
 	end
 end)
+
+-- 🔗 Social Links Footer
+local linkBar = Instance.new("Frame", panel)
+linkBar.Size = UDim2.new(1, -40, 0, 30)
+linkBar.Position = UDim2.new(0, 20, 1, -35)
+linkBar.BackgroundTransparency = 1
+linkBar.Name = "SocialLinks"
+
+local layout = Instance.new("UIListLayout", linkBar)
+layout.FillDirection = Enum.FillDirection.Horizontal
+layout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+layout.Padding = UDim.new(0, 12)
+
+local function createLink(label, url)
+	local btn = Instance.new("TextButton", linkBar)
+	btn.Size = UDim2.new(0, 120, 1, 0)
+	btn.Text = label
+	btn.TextColor3 = Color3.fromRGB(0, 255, 0)
+	btn.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+	btn.Font = Enum.Font.Code
+	btn.TextScaled = true
+	btn.AutoButtonColor = false
+	Instance.new("UICorner", btn)
+	local glow = Instance.new("UIStroke", btn)
+	glow.Thickness = 0.5
+	glow.Color = Color3.fromRGB(0, 255, 0)
+	glow.Transparency = 0.2
+
+	btn.MouseButton1Click:Connect(function()
+		-- Safe logging without URL opening
+		log.Text = log.Text .. "[SOCIAL] Clicked: " .. label .. "\n"
+		-- Uncomment if using an executor that supports clipboard or URL opening:
+		-- if setclipboard then setclipboard(url) end
+	end)
+end
+
+-- 🌐 Replace with your actual links
+createLink("Discord", "https://discord.gg/your-server")
+createLink("Reddit", "https://www.reddit.com/r/your-subreddit")
+createLink("GitHub", "https://github.com/your-project")
