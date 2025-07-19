@@ -10,7 +10,9 @@
 Go to [script.lua](https://github.com/RGameHUB/RobloxLUA/blob/main/script.lua)
 
 ### Step 2.
-Click 'download raw file' or click 'copy raw file'
+Click 'copy raw file' or
+
+Download [V1](https://github.com/RGameHUB/RobloxLUA/releases/download/V1/script.lua)
 
 ### Step 3.
 Paste or upload the code into your Injector client
