@@ -2,7 +2,7 @@
 
 ---
 
-# ROVO Verison 1
+![](.github/assets/logo-v1.png)
 
 ## Installation
 
@@ -19,3 +19,6 @@ e.g. [JJsploit](https://wearedevs.net/d/JJSploit), [Solara](https://wearedevs.ne
 
 ### Step 4.
 Run the code
+
+---
+
