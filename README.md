@@ -2,11 +2,9 @@
 
 ---
 
-![](.github/assets/logo-v1.png)
-
 ## Installation
 
-## Option 1.
+# Version 1.1.2
 
 ### Step 1.
 Copy this
