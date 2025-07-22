@@ -8,9 +8,9 @@
 
 ## Option 1.
 
-`### Step 1.`
+### Step 1.
 Copy this
-```
+```lua
 -- Do not remove any code below this line.
 
 print("dsc.gg/rovo")
