@@ -9,16 +9,7 @@
 ### Step 1.
 Copy this
 ```lua
--- Do not remove any code below this line.
-
-print("dsc.gg/rovo")
-
-print("Launching ROVO")
-
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RGameHUB/RobloxLUA/refs/heads/master/script.lua"))()
-
-
-print("Launched ROVO Sucessfuly")
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RGameHUB/RobloxLUA/refs/heads/master/Loaders/Main.lua"))()
 ```
 
 Step 2.
